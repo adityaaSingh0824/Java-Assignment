@@ -33,3 +33,50 @@ public class StudentInfo {
         g.displayInfo();
     }
 }
+# Q3. Create a class Greeting with a method sayHello() that takes your name as a parameter and prints:
+import java.util.Scanner;
+public class Greeting {
+    public void sayHello() {
+        String Name = "Hello,Aditya! Welcoeme to the Java Programming";
+        System.out.println(Name); 
+    }
+    public static void main(String[] args) {
+        Greeting g = new Greeting();
+        g.sayHello();
+    }
+}
+# Q4. Create a class Circle with a method calculateArea() that calculates and prints the area of a circle.
+import java.util.Scanner;
+public class Circle {
+    public void calculateArea() {
+        int radius = 7;
+        double Pie = 3.14;
+        double area = Pie * radius * radius;
+        System.out.println("Area: " + area);
+    
+    }
+    public static void main(String[] args) {
+        Circle g = new Circle();
+        g.calculateArea();
+    }
+}
+# Q5. Create a class SimpleInterest with a method calculateInterest() that calculates simple interest.
+import java.util.Scanner;
+public class SimpleInterest {
+    public void calculateInterest() {
+        double P= 1000;
+        double T=2;
+        double R=5;
+        double SI = (P*T*R)/ 100;
+         System.out.println(SI);
+    
+    }
+    public static void main(String[] args) {
+        SimpleInterest g = new SimpleInterest();
+        g.calculateInterest();
+    }
+}
+
+
+
+
