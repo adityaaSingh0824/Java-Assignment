@@ -1,4 +1,4 @@
-# Java-Assignment
+# Java-Assignment1
 # Q1. Create a class StudentInfo with a method displayInfo() that prints your name, age, and grade.
 import java.util.Scanner;
 public class StudentInfo {
