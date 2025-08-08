@@ -19,20 +19,20 @@ public class StudentInfo {
 
 # Q2. Create a class Calculator with a method addNumbers() that adds two numbers and prints the result
 import java.util.Scanner;
-public class StudentInfo {
-    public void displayInfo() {
-        String Name = "Aman Sharma";
-        int Age = 16;
-        String Grade = "10th";
-        System.out.println("Name: " +Name);
-        System.out.println("Age: " +Age);
-        System.out.println("Grade: " +Grade);  
+public class Calculator {
+    public void addNumber() {
+        int num=10;
+        int num1=20;
+        int sum =num + num1;
+         System.out.println(num + num1);
+    
     }
     public static void main(String[] args) {
-        StudentInfo g = new StudentInfo();
-        g.displayInfo();
+        Calculator g = new Calculator();
+        g.addNumber();
     }
 }
+
 # Q3. Create a class Greeting with a method sayHello() that takes your name as a parameter and prints:
 import java.util.Scanner;
 public class Greeting {
